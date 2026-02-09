@@ -1,0 +1,167 @@
+{
+  "identity": {
+    "name": "E1",
+    "role": "Creative Designer (Anti-AI)",
+    "mission": "Create a 'Cyber-Noir' anonymous video chat platform that feels electric, safe, and premium.",
+    "principles": [
+      "Fusion over Imitation: Mix 'Cyberpunk' aesthetics with 'Swiss' precision.",
+      "Emotion First: The app should feel 'Live' and 'Electric'.",
+      "Content is King: Video feeds are the heroes; UI gets out of the way.",
+      "Zoom In: Focus on faces and expressions.",
+      "Negative Space: Don't clutter the chat view."
+    ]
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Syne, sans-serif",
+      "weights": ["700", "800"],
+      "usage": "Use for all H1-H3. Tight tracking (-0.02em).",
+      "fallback": "Space Grotesk"
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["400", "500", "600"],
+      "usage": "Use for all UI text, chat messages, and inputs.",
+      "fallback": "Inter"
+    },
+    "import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Syne:wght@700;800&display=swap"
+  },
+  "colors": {
+    "theme": "Electric Midnight",
+    "palette": {
+      "background": {
+        "default": "#050505",
+        "paper": "#0A0A0A",
+        "subtle": "#121212"
+      },
+      "primary": {
+        "default": "#6366f1",
+        "hover": "#4f46e5",
+        "foreground": "#ffffff",
+        "description": "Electric Indigo - Trust meets Tech"
+      },
+      "secondary": {
+        "default": "#22d3ee",
+        "foreground": "#000000",
+        "description": "Cyan Neon - For 'Live' status and active states"
+      },
+      "accent": {
+        "default": "#d946ef",
+        "foreground": "#ffffff",
+        "description": "Fuchsia - For 'Premium' features and 'Next' button"
+      },
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "#94a3b8",
+        "muted": "#64748b"
+      },
+      "border": {
+        "default": "rgba(255, 255, 255, 0.1)",
+        "active": "rgba(99, 102, 241, 0.5)"
+      }
+    },
+    "gradients": {
+      "hero": "linear-gradient(135deg, #050505 0%, #1e1b4b 100%)",
+      "glass": "linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%)",
+      "glow": "conic-gradient(from 90deg at 50% 50%, #00000000 50%, #6366f1 100%)"
+    }
+  },
+  "layout": {
+    "spacing_scale": ["p-1", "p-2", "p-4", "p-6", "p-8", "p-12", "p-16", "p-24", "p-32"],
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "grids": {
+      "marketing": "Mode A (Tetris): grid-cols-1 md:grid-cols-12 gap-8. Use asymmetry.",
+      "dashboard": "Mode B (High Density): grid-cols-1 md:grid-cols-4 gap-4. Dense data.",
+      "chat": "Split View: Video feeds take 80% height. Controls float at bottom."
+    },
+    "border_radius": {
+      "default": "rounded-xl",
+      "button": "rounded-full",
+      "card": "rounded-2xl"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-white rounded-full hover:shadow-[0_0_20px_rgba(99,102,241,0.5)] transition-all duration-300",
+      "secondary": "bg-white/10 backdrop-blur-md border border-white/10 text-white rounded-full hover:bg-white/20",
+      "danger": "bg-red-500/10 text-red-500 border border-red-500/20 hover:bg-red-500/20"
+    },
+    "cards": {
+      "style": "Glassmorphism (Crystal)",
+      "classes": "bg-black/40 backdrop-blur-xl border border-white/10 shadow-2xl"
+    },
+    "inputs": {
+      "style": "Minimalist",
+      "classes": "bg-white/5 border-white/10 focus:border-primary/50 focus:ring-1 focus:ring-primary/50 rounded-lg h-12"
+    },
+    "video_container": {
+      "style": "Tracing Beam",
+      "classes": "relative overflow-hidden rounded-2xl border border-white/5 bg-black"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "backdrop_blur": "backdrop-blur-xl",
+      "background": "bg-black/60",
+      "border": "border-white/10"
+    },
+    "shadows": {
+      "glow": "shadow-[0_0_30px_-5px_rgba(99,102,241,0.3)]",
+      "neon": "drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]"
+    },
+    "textures": {
+      "noise": "url('/noise.png') opacity-5"
+    }
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "hover_lift": "hover:-translate-y-1 hover:shadow-lg",
+    "micro_interactions": "Active elements must scale slightly (0.98) on click."
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1641277132336-ae9d6432b8c5?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Neon City Night Abstract",
+      "usage": "Hero section background with heavy overlay"
+    },
+    "connection_abstract": {
+      "url": "https://images.unsplash.com/photo-1737505599162-d9932323a889?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Abstract Network Connections",
+      "usage": "Matching screen background or feature graphic"
+    },
+    "user_profile_1": {
+      "url": "https://images.unsplash.com/photo-1551519559-e5a3d5a87069?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Young woman taking selfie",
+      "usage": "Demo user profile or testimonial"
+    },
+    "user_profile_2": {
+      "url": "https://images.unsplash.com/photo-1752650143532-71b9a6bae026?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Friends video chatting",
+      "usage": "Social proof section"
+    }
+  },
+  "creative_strategy": {
+    "library": "tsparticles",
+    "usage": "Use for 'Network' background effect on Landing Page. Subtle floating nodes connecting lines.",
+    "reason": "Lightweight compared to Three.js, perfect for the 'connection' metaphor."
+  },
+  "universal_guidelines": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations.",
+    "NEVER use AI assistant Emoji characters for icons.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations.",
+    "Main agent relies on these image URLs. Missing categories = main agent will use placeholder text which is FORBIDDEN.",
+    "Prioritize using pre-existing components from src/components/ui when applicable.",
+    "Components MUST use named exports.",
+    "Pages MUST use default exports.",
+    "Use sonner for toasts."
+  ],
+  "instructions_to_main_agent": "You are building a 'Cyber-Noir' video chat app. Think 'Blade Runner' meets 'Omegle'. It must feel anonymous, safe, but exciting. Use the 'Electric Midnight' palette strictly. Implement the 'Tetris' grid for the landing page and 'Glassmorphism' for all floating controls. Use 'Syne' for all headings to give it that unique art-house feel. Do not use default Shadcn cards; customize them to be glass panels."
+}
